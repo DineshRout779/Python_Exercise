@@ -3,6 +3,8 @@ b = input("enter second number\n")
 a = int(a)
 b = int(b)
 try:
-    print(a/b)
+    result = a/b
+    result = str(result)
+    print("Result = "+result)
 except ZeroDivisionError:
     print("b can not be zero, try again.")
